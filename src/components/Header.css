@@ -1,0 +1,202 @@
+body * {
+  box-sizing: border-box;
+}
+
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_media {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* background-color: rgb(4, 29, 63); */
+  background-color: #031d33;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: visible;
+}
+
+.logo {
+  text-decoration: none;
+  background: transparent;
+}
+
+.lists {
+  padding: 0;
+  background: transparent;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  border-color: #dee2e6;
+  color: #212529;
+  height: 40px;
+  flex-wrap: nowrap;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  flex-direction: row;
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  outline: 0;
+  line-height: 1.5;
+  display: flex;
+  position: relative;
+  cursor: default;
+  text-decoration: none;
+  font: inherit;
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  font-size: medium;
+}
+
+.titles {
+  margin-left: 300px;
+}
+
+.lt {
+  z-index: auto;
+  color: #000;
+  font-weight: 400;
+  display: flex;
+  margin-right: 14px;
+  border-width: 0;
+  outline: 0;
+  flex: 0 0 auto;
+  position: relative;
+  user-select: none;
+  cursor: default;
+  align-items: center;
+  align-content: center;
+  visibility: visible;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: -webkit-match-parent;
+  -webkit-tap-highlight-color: transparent;
+  font: inherit;
+  list-style: none;
+}
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  min-height: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.title_logo {
+  background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-371-plus-white-0bac34f16124808a12ea863b4d9cc6e599dee7c0a80658cfe9ead26939e64517.svg);
+  background-color: transparent;
+  font-size: 1.4em;
+  position: relative;
+  display: inline-flex;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 300px;
+  width: 25px;
+  height: 25px;
+
+}
+
+;
+
+.title_logo_position {
+  width: 40em;
+  height: 1em;
+}
+
+
+.parag {
+  font-size: medium;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tr {
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.title_search {
+  background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
+  background-color: transparent;
+  font-size: 1.4em;
+  position: relative;
+  display: inline-flex;
+  line-height: inherit;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
