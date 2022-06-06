@@ -8,7 +8,8 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='footer container'>
+        <div className='footer'>
+        <div className='container'>
             <div class="row">
 
                 <div class="col-6 align-center">
@@ -74,6 +75,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
