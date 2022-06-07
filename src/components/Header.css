@@ -2,120 +2,26 @@ body * {
   box-sizing: border-box;
 }
 
-
-.content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.sub_media {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  top: 0;
-  left: 0;
-  /* background-color: rgb(4, 29, 63); */
-  background-color: #031d33;
-  width: 100%;
-  padding: 0 40px;
-}
-
-.nav_wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  align-items: center;
-  overflow: visible;
-}
-
-.logo {
-  text-decoration: none;
-  background: transparent;
-}
-
-.lists {
-  padding: 0;
-  background: transparent;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 0;
-  border-color: #dee2e6;
-  color: #212529;
-  height: 40px;
-  flex-wrap: nowrap;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  flex-direction: row;
-  border-width: 0;
-  border-style: solid;
-  box-sizing: border-box;
-  outline: 0;
-  line-height: 1.5;
-  display: flex;
-  position: relative;
-  cursor: default;
-  text-decoration: none;
-  font: inherit;
-  list-style: none;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
-.title {
-  margin-top: 10px;
-  margin-left: 30px;
-  color: white;
+.menutitles{
+  margin-top: 20px;
   font-size: medium;
+  margin-left: -30px;
 }
 
-.titles {
-  margin-left: 300px;
-}
-
-.lt {
-  z-index: auto;
-  color: #000;
-  font-weight: 400;
-  display: flex;
-  margin-right: 14px;
-  border-width: 0;
-  outline: 0;
-  flex: 0 0 auto;
-  position: relative;
-  user-select: none;
-  cursor: default;
-  align-items: center;
-  align-content: center;
-  visibility: visible;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-  text-align: -webkit-match-parent;
-  -webkit-tap-highlight-color: transparent;
-  font: inherit;
-  list-style: none;
+.aboutnav{
+  background-color: #04243f;
+  height: 7vh;
 }
 
 
-
-/* Style The Dropdown Button */
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.plus{
+  /* margin-right: -30px; */
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
+.cursor{
+cursor: pointer;
 }
+
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -165,16 +71,7 @@ body * {
   margin-left: 300px;
   width: 25px;
   height: 25px;
-
 }
-
-;
-
-.title_logo_position {
-  width: 40em;
-  height: 1em;
-}
-
 
 .parag {
   font-size: medium;
