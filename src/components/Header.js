@@ -55,7 +55,7 @@ function Header() {
             </div>
           </div>
 
-          <div className="col-lg dropdown cursor mt-3 plus">
+          <div className="col-lg dropdown cursor mt-3">
             <div className="title_logo title" id="dropdownMenuButton1">
             </div>
             <div className="dropdown-content">

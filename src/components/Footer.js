@@ -12,7 +12,7 @@ function Footer() {
         <div className='container'>
             <div class="row">
 
-                <div class="col-6 align-center">
+                <div class="col-md-12 col-lg-6 align-center">
                     <div className='join'>
                         <ul className='liste'>
                             <li>
@@ -26,12 +26,13 @@ function Footer() {
                 </div>
 
 
-                <div class="col-6 align-center">
+                <div class="col-lg-6 align-center">
 
 
                     <div className='big'>
+                    <div className='row'>
 
-                        <div className='footertitles'>
+                        <div className='col-md footertitles'>
                             <p>TEMEL</p>
                             <ul className='footerlists '>
                                 <li><a id="footera" href="#">TMDB Hakkında</a></li>
@@ -43,7 +44,7 @@ function Footer() {
                         </div>
 
 
-                        <div className='footertitles'>
+                        <div className='col-md footertitles'>
                             <p>KATKIDA BULUNUN</p>
                             <ul className='footerlists '>
                                 <li><a id="footera" href="#">Katılım Başvuru Kitabı</a></li>
@@ -52,7 +53,7 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div className='footertitles'>
+                        <div className='col-md footertitles'>
                             <p>TOPLULUK</p>
                             <ul className='footerlists '>
                                 <li><a id="footera" href="#">Rehberler</a></li>
@@ -62,7 +63,7 @@ function Footer() {
                             </ul>
                         </div>
 
-                        <div className='footertitles'>
+                        <div className='col-md footertitles'>
                             <p>YASAL</p>
                             <ul className='footerlists '>
                                 <li><a id="footera" href="#">Kullanım Koşulları</a></li>
@@ -72,6 +73,7 @@ function Footer() {
                         </div>
 
 
+                    </div>
                     </div>
                 </div>
             </div>
