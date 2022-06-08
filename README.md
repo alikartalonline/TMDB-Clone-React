@@ -7,3 +7,8 @@
 <br />
 
 ![clone](https://github.com/alikartalonline/TMDB-Clone-React/blob/main/assets/clon1.png)
+
+<br/>
+<br/>
+
+![clone](https://github.com/alikartalonline/TMDB-Clone-React/blob/main/assets/clon2.png)
