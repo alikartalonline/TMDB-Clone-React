@@ -8,7 +8,7 @@
 }
 
 .join{
-    text-align: right;
+    text-align: center;
     position: relative;
     top: -36px;
     right: 0;
@@ -21,8 +21,6 @@
 }
 
 .forum{
-    position: relative;
-    /* top: 140px; */
     margin-top: 30px;
     padding: 8px 16px;
     display: inline-block;
@@ -51,6 +49,7 @@
   .liste{
       flex-direction: column;
       list-style: none;
+      
   }
 
 .footertitles{
@@ -97,9 +96,3 @@
     font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
-
-
-
-.big{
-    display: flex;
-}
