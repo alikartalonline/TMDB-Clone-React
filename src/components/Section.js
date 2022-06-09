@@ -3,17 +3,15 @@ import React, { useEffect, useState } from 'react'
 import './Section.css'
 
 
-
 function Section() {
-
+    
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        axios("https://api.themoviedb.org/3/movie/popular?api_key=ebac3bbaf26b83349c6f0cda7ed8642c&language=en-US&page=1#")
+        axios(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1#`)
             .then(res => setMovies(res.data.results))
             .catch(e => console.log("error:", e))
     }, [])
-
 
 
 
@@ -101,14 +99,16 @@ function Section() {
 
                                 {/* score bar */}
                                 <div className="progress"
-                                // style={{ width: "100%" }}
                                 >
                                     <div
                                         className={
-                                        item.vote_average > 0 && item.vote_average < 2.5 ? "progress-bar bg-danger"
-                                        : item.vote_average > 2.5 && item.vote_average < 5.0 ? "progress-bar bg-warning"
-                                        : item.vote_average > 5.0 && item.vote_average < 7.5 ? "progress-bar bg-info"
-                                        : item.vote_average > 7.5 && item.vote_average < 10.0 ? "progress-bar bg-success"
+                                        item.vote_average > 0 && item.vote_average < 2.5 ? "progress-bar bg-secondary.bg-gradient"
+                                        : item.vote_average > 2.5 && item.vote_average < 5.0 ? "progress-bar bg-danger bg-gradient"
+                                        : item.vote_average > 5.0 && item.vote_average < 6.0 ? "progress-bar bg-danger"
+                                        : item.vote_average > 6.0 && item.vote_average < 7.0 ? "progress-bar bg-warning bg-gradient"
+                                        : item.vote_average > 7.0 && item.vote_average < 8.0 ? "progress-bar bg-info bg-gradient"
+                                        : item.vote_average > 8.0 && item.vote_average < 9.0 ? "progress-bar bg-primary bg-gradient"
+                                        : item.vote_average > 9.0 && item.vote_average < 10.0 ? "progress-bar bg-success bg-gradient"
                                         : ""}
 
                                         role="progressbar"
@@ -116,8 +116,11 @@ function Section() {
                                         style={{
                                             width: `${item.vote_average > 0 && item.vote_average < 2.5 ? "25%"
                                                 : item.vote_average > 2.5 && item.vote_average < 5.0 ? "50%"
-                                                : item.vote_average > 5.0 && item.vote_average < 7.5 ? "75%"
-                                                : item.vote_average > 7.5 && item.vote_average < 10.0 ? "100%"
+                                                : item.vote_average > 5.0 && item.vote_average < 6.0 ? "60%"
+                                                : item.vote_average > 6.0 && item.vote_average < 7.0 ? "70%"
+                                                : item.vote_average > 7.0 && item.vote_average < 8.0 ? "80%"
+                                                : item.vote_average > 8.0 && item.vote_average < 9.0 ? "90%"
+                                                : item.vote_average > 9.0 && item.vote_average < 10.0 ? "100%"
                                                 : ""}`
                                         }}
                                     >
@@ -130,8 +133,8 @@ function Section() {
                                         <div className='outer_ring'>
                                             <div className='user_score_chart '>
                                                 <div className='percent'>
-                                                    <span className='icon'>
-                                                        {Math.round(item.vote_average)}0
+                                                    <span className='icon' >
+                                                        {item.vote_average * 10}
                                                     </span>
                                                     <div className='canvas' >%</div>
                                                 </div>

@@ -12,6 +12,26 @@
     height: 85%;
 }
 
+.selector2th {
+    margin-left: -100px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #04243f;
+    border-radius: 30px;
+    height: 85%;
+}
+
+.selector3th {
+    margin-left: -250px;
+    max-width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #04243f;
+    border-radius: 30px;
+    height: 85%;
+}
+
+
 .anchor {
     position: relative;
     top: 0;
@@ -75,6 +95,7 @@
 
 .sectioncard {
     margin-left: 10px;
+    max-width: calc(100px * 1.5);
 }
 
 .sectionimg {
@@ -98,14 +119,13 @@
 
 .icon {
     padding-top: 1px;
-    padding-left: 1px;
+margin-left: -2px;
     font-size: 1em;
     color: #fff;
     font-family: 'Consensus' !important;
-    speak: none;
     font-style: normal;
     /* font-weight: normal; */
-    font-weight: 600;
+    font-weight: 800;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
@@ -164,6 +184,9 @@
     display: inline-block;
     border-radius: 50%;
     background-color: #081c22;
+    /* border-color: rgb(123, 0, 255); */
+    /* border-style: solid; */
+    border: 0.13em solid rgb(204, 255, 0);
 
 }
 
@@ -198,8 +221,8 @@
     transition: height .5s linear;
     padding-bottom: 20px;
 
-    white-space: nowrap; 
-    /* nowrap => başlıkların taşmasını önlüyor, hepsini aynı şekilde hizalıyor */
+    /* white-space: nowrap;  */
+    /* nowrap => Card bölümünde, resimin altındaki başlıkların taşmasını önlüyor, hepsini aynı şekilde hizalıyor */
 }
 
 section div.scroller::-webkit-scrollbar {
