@@ -2,7 +2,7 @@
 
 ## I'm working on it :))
 
-![workworkwork](https://github.com/alikartalonline/TMDB-Clone-React/blob/main/assets/coffee2.gif)
+![workworkwork](https://github.com/alikartalonline/TMDB-Clone-React/blob/main/assets/working.gif)
 
 ### Clone: https://www.themoviedb.org/
 
