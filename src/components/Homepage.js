@@ -5,11 +5,11 @@ import Nav from './Nav.js';
 import Section from './Section.js';
 import Section2th from './Section2th.js';
 import Section3th from './Section3th.js';
+import Article from './Article.js';
+
 
 function Homepage() {
-
-
-    
+   
 
     return (
         <div>
@@ -18,6 +18,7 @@ function Homepage() {
             <Section />
             <Section2th />
             <Section3th />
+            <Article />
 
             {/* <Footer /> */}
         </div>
