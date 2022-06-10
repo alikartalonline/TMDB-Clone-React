@@ -61,7 +61,7 @@ function Section3th() {
         </div>
 
         <section className='row ' >
-            <div className='scroller '>
+            <div className='scroller section3thbackground '>
 
             {
                 movies.map((item, key) => (
