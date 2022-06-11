@@ -1,0 +1,48 @@
+.article2background{
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces_filter(duotone,190235,ad47dd)/lMnoYqPIAVL0YaLP5YjRy7iwaYv.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.content_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.articlelist{
+    list-style-type: disc;
+    list-style-position: outside;
+    opacity: 0.8;
+}
+
+
+.articlea{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #805be7;
+    /* background-image: linear-gradient(43deg, #651e73 0%, #3a2774 0%, #805be7 100%); */
+    /* background: transparent; */
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: linear .1s;
+    cursor: pointer;
+    border-color: #805be7;
+}
+
+.articlea:hover{
+    color: #fff;
+}
