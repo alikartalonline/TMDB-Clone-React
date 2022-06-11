@@ -1,21 +1,24 @@
 .footer{
     padding: 80px 60px;
-    background-color: #031d33;
-    position: absolute;
+    background-color: #052542;
+    /* position: absolute; */
+    position: relative;
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
 }
 
+
 .join{
     text-align: center;
+    float: right;
     position: relative;
     top: -36px;
-    right: 0;
-    margin-right: 40px;
-    min-width: 0;
+    /* right: 0; */
+    /* margin-right: 40px; */
+    /* min-width: 0; */
+    /* display: block; */
     box-sizing: border-box;
-    display: block;
     font-size: .9em;
     color: #fff;
 }
@@ -23,6 +26,7 @@
 .forum{
     margin-top: 30px;
     padding: 8px 16px;
+    /* float: right; */
     display: inline-block;
     border-color: #fff;
     background-color: #fff;
@@ -38,7 +42,6 @@
     text-decoration: none;
     box-sizing: border-box;
     /* background: transparent; */
-
 }
 
 .forum:hover, .forum:active {
@@ -49,24 +52,33 @@
   .liste{
       flex-direction: column;
       list-style: none;
-      
   }
 
+  
+.footertitleandlist{
+float: left;
+}
+
+
 .footertitles{
-    text-align: left;
-    position: relative;
-    top: -16px;
-    right: 0;
-    margin-right: 40px;
-    min-width: 0;
-    display: block;
+    /* text-align: left; */
+    /* float: left; */
+    /* position: relative; */
+    /* top: -16px; */
+    /* right: 0; */
+    /* margin-right: 40px; */
+    /* display: block; */
+    /* min-width: 0; */
+    /* text-transform: uppercase; */   
+
     color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'Source Sans Pro', Arial, sans-serif;
     font-weight: 900;
     font-size: 1em;
-    line-height: 1.5em;
-    /* text-transform: uppercase; */
+    line-height: 1.1em;
+
+    /* başlıkların ikinci satıra geçmemesini sağlıyor, yani aynı satırda "Katkıda Bulunun" gibi */
     white-space: nowrap;
 }
 
