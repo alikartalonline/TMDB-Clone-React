@@ -8,11 +8,11 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer mt-3'>
         <div className='container'>
             <div class="row">
 
-                <div class="col-md-12 col-lg-6 align-center">
+                <div class="col-md-12 col-lg-5">
                     <div className='join'>
                         <ul className='liste'>
                             <li>
@@ -26,11 +26,10 @@ function Footer() {
                 </div>
 
 
-                <div class="col-lg-6 align-center">
+                <div class="col-lg-7">
 
 
-                    <div className='big'>
-                    <div className='row'>
+                    <div className='row footertitleandlist'>
 
                         <div className='col-md footertitles'>
                             <p>TEMEL</p>
@@ -73,7 +72,6 @@ function Footer() {
                         </div>
 
 
-                    </div>
                     </div>
                 </div>
             </div>
