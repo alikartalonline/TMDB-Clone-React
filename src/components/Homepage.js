@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header.js';
-// import Footer from './Footer.js';
+import Footer from './Footer.js';
 import Nav from './Nav.js';
 import Section from './Section.js';
 import Section2th from './Section2th.js';
@@ -21,7 +21,7 @@ function Homepage() {
             <Article2 />
             <Article />
 
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
